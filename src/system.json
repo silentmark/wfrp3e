@@ -1,0 +1,28 @@
+{
+	"id": "wfrp3e",
+	"name": "wfrp3e",
+	"title": "Warhammer 3ed FFG",
+	"description": ".",
+	"version": "0.1.0",
+	"author": "silent_mark",
+	"minimumCoreVersion" : 10,
+	"compatibility" : {
+	  "minimum" : 10,
+	  "verified" : 10,
+	  "maximum" : 10    
+	},
+	"scripts": ["wfrp3e.js"],
+	"styles": ["style.css"],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json"
+		}
+	],
+	"socket": true,
+	"url": "",
+	"manifest": "",
+	"download": "",
+	"license": "MIT"
+}
