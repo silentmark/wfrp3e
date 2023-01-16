@@ -18,7 +18,7 @@
 	  <div class="table-row">
 		{#each Object.entries(actor.system.attributes) as [a, at]}
 		<div class="table-data">
-		  <input class="attr-edit" data-attribute="{a}" name="actor.system.attributes.{a}.value" type="text" value="{at.value}" data-dtype="Number">
+		  <input class="attr-edit" data-attribute="{a}" name="data.attributes.{a}.value" type="text" value="{at.value}" data-dtype="Number">
 		</div>
 		<div class="table-data attribute-luck">
 		  {#if at.luck}

@@ -28,8 +28,7 @@ export class WfrpCharacterSheet extends ActorSheet {
 		let data = new WfrpCharacterSheetData();
 		data.actor = this.actor;
 		data.data =  this.actorData.toObject().data;
-		return data;
-		
+		return data;		
 	}
 
 	// Injects Svelte app when initializing HTML
